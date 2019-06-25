@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_recording__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Link to a recording of the success story</inlineHelpText>
+    <label>Link to recording</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>
