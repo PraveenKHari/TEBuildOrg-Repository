@@ -3,14 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/gantt_chart_resource": [
-                "gantt_chart_resource/gantt_chart_resource.js"
+            "c/gantt_chart": [
+                "gantt_chart/gantt_chart.js"
             ],
             "c/gantt_chart_modal": [
                 "gantt_chart_modal/gantt_chart_modal.js"
             ],
-            "c/gantt_chart": [
-                "gantt_chart/gantt_chart.js"
+            "c/gantt_chart_resource": [
+                "gantt_chart_resource/gantt_chart_resource.js"
             ]
         }
     },
