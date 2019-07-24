@@ -1,10 +1,10 @@
 import { LightningElement, api, track, wire } from "lwc";
 import { refreshApex } from "@salesforce/apex";
 import { ShowToastEvent } from "lightning/platformShowToastEvent";
-/*
+
 import momentJS from "@salesforce/resourceUrl/momentJS";
 import { loadScript } from "lightning/platformResourceLoader";
-*/
+
 import getChartData from "@salesforce/apex/ganttChart.getChartData";
 import getProjects from "@salesforce/apex/ganttChart.getProjects";
 import getResources from "@salesforce/apex/ganttChart.getResources";
@@ -94,7 +94,8 @@ export default class GanttChart extends LightningElement {
     super();
     this.template.addEventListener("click", this.closeDropdowns.bind(this));
   }
-/*
+
+  /*
   renderedCallback() {
     Promise.all([
       loadScript(this, momentJS),
@@ -119,6 +120,7 @@ export default class GanttChart extends LightningElement {
       );
     });
   }
+*/
 
   connectedCallback() {
     Promise.all([
@@ -135,7 +137,6 @@ export default class GanttChart extends LightningElement {
       this.handleRefresh();
     });
   }
-*/
 
   // catch blur on allocation menus
   closeDropdowns() {

@@ -125,6 +125,27 @@ public with sharing class ganttChart {
         return data;
     }
 
+/*
+    @AuraEnabled
+    public static List<Object> getResources() {
+         List<Object> resources = new List<Object>();
+         resources = [SELECT Id, Name, Default_Role__c
+                              FROM Resource__c
+                              WHERE Active__c = true
+                              ORDER BY Name];
+
+        for (Resource__c r : resources) {
+            resources.add(new Map<String, Object> {
+                'Id' => r.Id,
+                'Name' => r.Name,
+                'Default_Role__c' => r.Default_Role__c
+            });
+        }
+
+        return resources;                      
+    }
+*/
+    
     @AuraEnabled
     public static List<Object> getResources() {
         List<Object> resources = new List<Object>();
@@ -142,6 +163,7 @@ public with sharing class ganttChart {
 
         return resources;
     }
+    
 
     @AuraEnabled
     public static List<Project__c> getProjects() {

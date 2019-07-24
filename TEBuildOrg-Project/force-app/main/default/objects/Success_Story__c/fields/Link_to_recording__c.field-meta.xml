@@ -5,6 +5,7 @@
     <inlineHelpText>Link to a recording of the success story</inlineHelpText>
     <label>Link to recording</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Url</type>
 </CustomField>

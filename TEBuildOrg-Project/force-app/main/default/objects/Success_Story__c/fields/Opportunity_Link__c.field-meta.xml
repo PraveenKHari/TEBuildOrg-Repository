@@ -5,6 +5,7 @@
     <inlineHelpText>Org62 Account or Opportunity Link</inlineHelpText>
     <label>Account/Opportunity Link</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Url</type>
 </CustomField>

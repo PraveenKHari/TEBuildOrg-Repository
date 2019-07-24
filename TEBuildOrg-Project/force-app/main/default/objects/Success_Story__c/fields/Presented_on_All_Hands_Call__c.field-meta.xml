@@ -5,6 +5,7 @@
     <externalId>false</externalId>
     <inlineHelpText>Was the Story presented on an AppExchange All Hands Call</inlineHelpText>
     <label>Presented on All Hands Call</label>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

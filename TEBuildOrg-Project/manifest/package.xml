@@ -1,44 +1,130 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">   
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>V2MOM_Method__c</members>
-        <members>Success_Story__c</members>
-        <members>Project__c</members>
-        <members>Resource__c</members>
-        <members>Allocation__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>ganttChart</members>
+        <members>tst_ganttChart</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>ganttChartWrapper</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>X60x60_beakertile</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Project_and_Resource_Management</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Allocation__c.Effort__c</members>
+        <members>Allocation__c.End_Date__c</members>
+        <members>Allocation__c.Project__c</members>
+        <members>Allocation__c.Resource__c</members>
+        <members>Allocation__c.Start_Date__c</members>
+        <members>Allocation__c.Status__c</members>
+        <members>Project__c.Active__c</members>
+        <members>Project__c.Attendees__c</members>
+        <members>Project__c.Avg_Survey_Score__c</members>
+        <members>Project__c.Color__c</members>
+        <members>Project__c.Documentation_Link__c</members>
+        <members>Project__c.Event_Date__c</members>
+        <members>Project__c.Long_Description__c</members>
+        <members>Project__c.Primary_Owner__c</members>
+        <members>Project__c.Recap_Feedback__c</members>
+        <members>Project__c.Recap_Score__c</members>
+        <members>Project__c.Registered_Bookmark__c</members>
+        <members>Project__c.Secondary_Owner__c</members>
+        <members>Project__c.Short_Description__c</members>
+        <members>Project__c.Stage__c</members>
+        <members>Project__c.V2MOM_Method__c</members>
+        <members>Resource__c.Active__c</members>
+        <members>Resource__c.Default_Role__c</members>
+        <members>Resource__c.Email__c</members>
+        <members>Resource__c.Resource_Hierarchy__c</members>
+        <members>Success_Story__c.Line_to_Deck__c</members>
+        <members>Success_Story__c.Link_to_recording__c</members>
+        <members>Success_Story__c.Opportunity_Link__c</members>
+        <members>Success_Story__c.PDO_Involved__c</members>
+        <members>Success_Story__c.Partner__c</members>
+        <members>Success_Story__c.Presented_on_All_Hands_Call__c</members>
+        <members>Success_Story__c.Presented_on_TE_Call__c</members>
+        <members>Success_Story__c.Primary_Contributor__c</members>
+        <members>Success_Story__c.Secondary_Contributor__c</members>
+        <members>Success_Story__c.Story_Description__c</members>
+        <members>Success_Story__c.Technologies_Used__c</members>
+        <members>V2MOM_Method__c.Description__c</members>
+        <members>V2MOM_Method__c.End_Date__c</members>
+        <members>V2MOM_Method__c.Fiscal_Year__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Allocation__c</members>
+        <members>Project__c</members>
+        <members>Resource__c</members>
+        <members>Success_Story__c</members>
+        <members>V2MOM_Method__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Allocation__c</members>
+        <members>Overview</members>
+        <members>Project__c</members>
+        <members>Resource__c</members>
+        <members>Success_Story__c</members>
+        <members>V2MOM_Method__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Home</members>
+        <members>Project</members>
+        <members>Resource_Record_Page</members>
+        <members>V2MOM_Method_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Technologies</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Allocation__c-Allocation Layout</members>
+        <members>Project__c-Project Layout</members>
+        <members>Project__c-Webinar Project Layout</members>
+        <members>Project__c-Workshop Page Layout</members>
+        <members>Resource__c-Resource Layout</members>
+        <members>Success_Story__c-Success Story Layout</members>
+        <members>V2MOM_Method__c-V2MOM Method Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>gantt_chart</members>
+        <members>gantt_chart_modal</members>
+        <members>gantt_chart_resource</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Project__c.Apps_Tools</members>
+        <members>Project__c.Projects</members>
+        <members>Project__c.Webinars</members>
+        <members>Project__c.Workshops</members>
+        <members>Resource__c.All_Resources</members>
+        <members>Resource__c.Resource_Details</members>
+        <members>Success_Story__c.All</members>
+        <members>Success_Story__c.All_Success_Stories</members>
+        <members>V2MOM_Method__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Project__c.Apps_Tools</members>
+        <members>Project__c.Project</members>
+        <members>Project__c.Webinar</members>
+        <members>Project__c.Workshop</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>momentJS</members>
         <name>StaticResource</name>
     </types>
-    <version>45.0</version>
+    <version>46.0</version>
 </Package>

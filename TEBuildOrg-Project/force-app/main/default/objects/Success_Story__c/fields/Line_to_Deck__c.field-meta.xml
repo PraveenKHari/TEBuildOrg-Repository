@@ -5,6 +5,7 @@
     <inlineHelpText>Provide a link to a Quip or gDoc presentation</inlineHelpText>
     <label>Link to Deck</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Url</type>
 </CustomField>

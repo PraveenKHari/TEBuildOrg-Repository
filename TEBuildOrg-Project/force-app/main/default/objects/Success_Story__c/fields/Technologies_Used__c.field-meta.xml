@@ -5,6 +5,7 @@
     <inlineHelpText>Select any technologies that apply</inlineHelpText>
     <label>Technologies Represented</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>
